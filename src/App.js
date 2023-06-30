@@ -5,12 +5,14 @@ import CalendarWidget from './Widgets/CalendarWidget';
 import TimerWidget from './Widgets/TimerWidget';
 import Draggable from 'react-draggable';
 import WidgetGalleryModal from './Modals/WidgetGalleryModal';
+import StopwatchWidget from './Widgets/StopwatchWidget';
  
 function App() {
  const [widgets, setWidgets] = useState([
   { id: new Date().getTime(), component: <ClockWidget />, area: 'main-widget', name: "Date and Time" },
   { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'right-widget', name: "Calendar" },
   { id: new Date().getTime() + 1, component: <TimerWidget />, area: 'left-widget', name:"Timer" },
+  { id: new Date().getTime() + 1, component: <StopwatchWidget />, area: 'main-widget', name:"Stopwatch" },
  ])
  const [showWidgetModal, setShowWidgetModal] = useState(false)
  const [selectedWidgetArea, setSelectedWidgetArea] = useState('')

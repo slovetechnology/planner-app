@@ -4,6 +4,7 @@ import ClockWidget from '../Widgets/ClockWidget'
 import ReminderListWidget from '../Widgets/ReminderListWidget'
 import TimerWidget from '../Widgets/TimerWidget'
 import CalendarWidget from '../Widgets/CalendarWidget'
+import StopwatchWidget from '../Widgets/StopwatchWidget'
 
 
 export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetArea, widgets, setWidgets }) {
@@ -12,6 +13,7 @@ export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetA
     { component: <ReminderListWidget />, name: "Reminder List" },
     { component: <TimerWidget />, name: "Timer" },
     { component: <CalendarWidget />, name: "Calendar" },
+    { component: <StopwatchWidget />, name: "Stopwatch" },
   ])
   return (
     <div className="modal"

@@ -1,0 +1,2 @@
+A stopwatch gadget is a profoundly proper and important expansion to an organizer application because of its reasonableness in using time productively and efficiency improvement. The stopwatch fills in as a flexible device, helping clients in following and improving their time during different exercises and undertakings.
+  By and large, the stopwatch gadget supplements the organizer application by advancing time-awareness and assisting clients with making the most out of their day.

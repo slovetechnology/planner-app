@@ -15,6 +15,7 @@ const StopwatchWidget = () => {
   const hrref = useRef(0)
   const intervalRef = useRef(null);
   const Icon = isRunning ? BsPauseCircle : BsPlayCircle
+  
 
   const startStopwatch = () => {
     setIsRunning(!isRunning);
@@ -92,3 +93,5 @@ const StopwatchWidget = () => {
 };
 
 export default StopwatchWidget;
+
+
